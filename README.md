@@ -4,7 +4,7 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 
 ## 下載與安裝
 
-**第一次使用，請到 [Releases 最新版本](https://github.com/DHKGOD/ACET-Studio-updates/releases/latest)，展開 Assets，下載 `ACET_Studio_Setup_版本號.exe` 完整安裝檔。**
+**第一次使用，請到 [Releases 最新版本](https://github.com/DHKGOD/Arduino-Simulator/releases/latest)，展開 Assets，下載 `ACET_Studio_Setup_版本號.exe` 完整安裝檔。**
 
 1. 開啟上方的 Releases 連結。
 2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.7.exe`。
