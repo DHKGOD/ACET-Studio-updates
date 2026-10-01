@@ -7,7 +7,7 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 **第一次使用，請到 [Releases 最新版本](https://github.com/DHKGOD/Arduino-Simulator/releases/latest)，展開 Assets，下載 `ACET_Studio_Setup_版本號.exe` 完整安裝檔。**
 
 1. 開啟上方的 Releases 連結。
-2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.12.exe`。
+2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.13.exe`。
 3. 下載完成後執行安裝檔，依畫面指示完成安裝。
 4. 從開始功能表或桌面捷徑開啟 **Arduino Simulator**。
 
@@ -73,3 +73,10 @@ Copyright © 2026 dhkgodez. All rights reserved.
 錯誤使用小型深紅標記及深紅摘要列，燈泡改為透明原生圖示；同一行有錯誤時優先顯示紅點。游標在括號前後均標示配對括號。編譯／Serial 使用圓角捲動條；有新版時左下角顯示下載圖示，滑鼠移入提示「可更新版本」。
 
 開發者模式保存本機解鎖狀態並提供登出，不保存輸入碼。更新保留工作區及設定，完整安裝器仍在原位置覆蓋。
+
+## 1.7.13 偵錯功能
+
+- 在「工具 → Debug 偵錯」啟用後，可設中斷點、查看區域變數與監看運算式，並逐步執行或繼續模擬。
+- 暫停時模擬時間會凍結；繼續後恢復。偵錯器只在啟用偵錯時啟動。
+- GDB、相依 DLL、Python 標準函式庫與 GDB 支援資料已隨更新及完整安裝包提供；不必另外安裝 GDB 或 Python，也不會修改系統 PATH。
+- 已安裝使用者可從「設定 → 檢查更新」更新。首次安裝或修復請到 [Releases 最新版本](https://github.com/DHKGOD/Arduino-Simulator/releases/latest) 下載 `ACET_Studio_Setup_1.7.13.exe`。
