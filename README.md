@@ -7,7 +7,7 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 **第一次使用，請到 [Releases 最新版本](https://github.com/DHKGOD/Arduino-Simulator/releases/latest)，展開 Assets，下載 `ACET_Studio_Setup_版本號.exe` 完整安裝檔。**
 
 1. 開啟上方的 Releases 連結。
-2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.8.exe`。
+2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.9.exe`。
 3. 下載完成後執行安裝檔，依畫面指示完成安裝。
 4. 從開始功能表或桌面捷徑開啟 **Arduino Simulator**。
 
@@ -18,6 +18,8 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 ## 已安裝的使用者如何更新？
 
 在程式內開啟 **設定 → 檢查更新**，依提示下載並安裝新版。網路更新會保留工作區、程式文件與設定。
+
+手動執行完整 Setup.exe 時，會偵測原安裝位置及版本，詢問是否**覆蓋**。確認後在原位置取代程式，只保留一個版本；取消則原版本不變。已裝同版可以修復，覆蓋較新版時會提醒將退回此安裝器版本。無需先解除安裝。
 
 | Release 檔案 | 用途 |
 |---|---|
@@ -42,3 +44,9 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 ---
 
 Copyright © 2026 dhkgodez. All rights reserved.
+
+## 1.7.9 新功能
+
+寫程式時自動檢查語法、回傳值與括號，直接在程式區顯示錯誤／警告。Alt+Enter 可預覽修正；設定中可關閉。更新會先備份，安裝後驗證；失敗時回復原程式。工作區與設定保留。
+
+**若舊版无法在線更新，請下載 Releases 中的完整 Setup.exe，直接安裝取代舊版；不要先解除安裝。**
