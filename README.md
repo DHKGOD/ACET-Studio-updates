@@ -7,7 +7,7 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 **第一次使用，請到 [Releases 最新版本](https://github.com/DHKGOD/Arduino-Simulator/releases/latest)，展開 Assets，下載 `ACET_Studio_Setup_版本號.exe` 完整安裝檔。**
 
 1. 開啟上方的 Releases 連結。
-2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.7.exe`。
+2. 在 **Assets** 中選擇檔名含 **`Setup`** 的 `.exe`，例如 `ACET_Studio_Setup_1.7.8.exe`。
 3. 下載完成後執行安裝檔，依畫面指示完成安裝。
 4. 從開始功能表或桌面捷徑開啟 **Arduino Simulator**。
 
@@ -28,6 +28,14 @@ Arduino Simulator（原 ACET Studio）是 Windows 桌面程式，可編寫、編
 ## 第一次使用
 
 開啟 **設定 → 互動新手導覽**，即可跟著畫面上的指示線了解工作區、程式編輯、編譯、模擬與更新功能。
+
+## Quick Fix 快速修正
+
+程式行旁出現小燈泡時，點擊它或按 **Alt+Enter**，即可查看修正建議與修改前後預覽，再選擇「套用修正」。也可從 **編輯 → 快速修正** 開啟。
+
+目前支援常見的缺少分號、Arduino／Serial 函式拼字及缺少 `LiquidCrystal.h` 等問題；修正後可用 **Ctrl+Z** 復原。
+
+在 **設定 → Quick Fix 快速修正** 使用滑動開關啟用或停用。設定會保存到下次啟動，關閉後會停止 Quick Fix 背景檢查。功能內建，無需外掛或 AI 帳號；完整程式仍請使用編譯驗證。
 
 桌面模擬不是 CPU 週期級模擬；精密硬體時序仍需在實際板子上確認。
 
